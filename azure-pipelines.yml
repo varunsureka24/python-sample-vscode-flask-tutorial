@@ -4,7 +4,7 @@ trigger:
 pool:
   pool: Default
   demands:
-  - agent.name -equals Varuns.Air.3
+  - agent.name -equals Varuns-Air-3
 
 strategy:
   matrix:

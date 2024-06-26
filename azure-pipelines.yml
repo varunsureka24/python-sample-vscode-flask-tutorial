@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  pool: MyPool
+  pool: Varuns-Air-3
 
 strategy:
   matrix:

@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  pool: Default
+  demands:
+  - agent.name -equals Varuns.Air.3
 
 steps:
 - script: echo Hello, world!

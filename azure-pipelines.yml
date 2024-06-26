@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  pool: Default
+  name: Default
   demands:
   - agent.name -equals Varuns-Air-3
 
